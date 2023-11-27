@@ -172,6 +172,24 @@ form {
     transition: all 0.2s ease-in-out;
 }
 
+.control-submit input {
+    font-size: 1rem;
+    font-weight: 500;
+
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.control-submit input:hover {
+    background-color: #0069d9;
+}
+
 .page-footer {
     display: flex;
     flex-direction: row;
@@ -198,8 +216,14 @@ form {
     color: var(--color-text);
 }
 
-.page-footer ul li > h1, h2, h3, h4, h5, h6 {
+.page-footer ul li > h1, 
+.page-footer ul li > h2, 
+.page-footer ul li > h3, 
+.page-footer ul li > h4, 
+.page-footer ul li > h5, 
+.page-footer ul li > h6 {
     font-size: 1.2rem;
     font-weight: 700;
     margin: 0
 }
+

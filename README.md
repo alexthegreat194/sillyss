@@ -25,13 +25,13 @@ Start by styling type. Set a default font style for your framework. Follow these
     - color 
     - font-weight
     - letter-spacing
-- [ ] Style other text elements 
-  - [ ] strong
-  - [ ] em
-  - [ ] a
-  - [ ] abbr
-  - [ ] code (this might use a different font - probably a fixed width font)
-- [ ] Controls - form elements
-  - [ ] input[text], input[email], input[password]
-  - [ ] button
-  - [ ] input[checkbox], input[radio]
+- [x] Style other text elements 
+  - [x] strong
+  - [x] em
+  - [x] a
+  - [x] abbr
+  - [x] code (this might use a different font - probably a fixed width font)
+- [x] Controls - form elements
+  - [x] input[text], input[email], input[password]
+  - [xx] button
+  - [x] input[checkbox], input[radio]
